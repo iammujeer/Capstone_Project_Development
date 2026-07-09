@@ -48,13 +48,13 @@ class DataExtaction:
         df = read_file_and_write_to_database(file_path,file_type)
         df.to_sql("stage_supplier",mysql_conn,index=False)
         logger.info("Data extraction completed for supplier data")
-'''
+
     def extract_stores_data_load_stage(self):
         logger.info("Data extraction has started for stores data")
         df = pd.read_sql("""SELECT * FROM STORES""",oracledb_conn)
         df.to_sql("stage_stores",mysql_conn,index=False)
         logger.info("Data extraction completed for stores data")
-'''
+
 if __name__ == "__main__":
     de = DataExtaction()
     
@@ -62,4 +62,4 @@ if __name__ == "__main__":
     de.extract_product_data_load_stage("source_systems/product_data_from_linux.csv","csv")
     de.extract_inventory_data_load_stage("source_systems/inventory_data.xml","xml")
     de.extract_supplier_data_load_stage("source_systems/supplier_data.json","json")    
-    #de.extract_stores_data_load_stage()
+    de.extract_stores_data_load_stage()
