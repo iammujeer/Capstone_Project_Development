@@ -19,3 +19,33 @@
 2026-07-09 15:26:56,606-INFOData extraction completed for inventory data
 2026-07-09 15:26:56,606-INFOData extraction has started for supplier data
 2026-07-09 15:26:56,639-INFOData extraction completed for supplier data
+2026-07-10 10:40:17,958-INFOFilter transformation has started for sales data
+2026-07-10 10:40:17,998-ERRORError encountered while data extraction of sales data,Execution failed on sql 'select * from stag_sales where sales_date >= '2025-09-10'': (pymysql.err.ProgrammingError) (1146, "Table 'feb2026retaildwh.stag_sales' doesn't exist")
+[SQL: select * from stag_sales where sales_date >= '2025-09-10']
+(Background on this error at: https://sqlalche.me/e/20/f405),exc_info=True
+2026-07-10 10:56:37,102-INFOFilter transformation has started for sales data
+2026-07-10 10:56:37,172-INFOData extraction completed for sales data
+2026-07-10 11:07:13,451-INFOFilter transformation has started for sales data
+2026-07-10 11:07:13,507-INFOFilter transformation completed for sales data
+2026-07-10 11:07:13,507-INFORouter transformation has started for high sales data
+2026-07-10 11:07:13,525-INFORouter transformation completed for high sales data
+2026-07-10 11:07:13,525-INFORouter transformation has started for low sales data
+2026-07-10 11:07:13,530-ERRORError encountered while data extraction of sales data,Table 'high_sales' already exists.,exc_info=True
+2026-07-10 11:08:36,995-INFOFilter transformation has started for sales data
+2026-07-10 11:08:37,051-INFOFilter transformation completed for sales data
+2026-07-10 11:08:37,051-INFORouter transformation has started for high sales data
+2026-07-10 11:08:37,071-INFORouter transformation completed for high sales data
+2026-07-10 11:08:37,071-INFORouter transformation has started for low sales data
+2026-07-10 11:08:37,091-INFORouter transformation completed for low sales data
+2026-07-12 16:06:50,489-INFOFilter transformation has started for sales data
+2026-07-12 16:06:50,814-INFOFilter transformation completed for filtered sales data
+2026-07-12 16:06:50,814-INFORouter transformation has started for high sales data
+2026-07-12 16:06:50,833-INFORouter transformation completed for high sales data
+2026-07-12 16:06:50,834-INFORouter transformation has started for low sales data
+2026-07-12 16:06:50,850-INFORouter transformation completed for low sales data
+2026-07-12 16:06:50,850-INFOJoiner transformation has started for sales data
+2026-07-12 16:06:50,873-INFOJoiner transformation completed for sales data
+2026-07-12 16:06:50,873-INFOAggregrator transformation has started for inventory data
+2026-07-12 16:06:50,889-INFOAggregrator transformation completed for inventory data
+2026-07-12 16:06:50,889-INFOAggregator transformation has started for sales data
+2026-07-12 16:06:50,894-ERRORError encountered while data extraction of aggregator sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
