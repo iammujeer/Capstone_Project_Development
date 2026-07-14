@@ -84,7 +84,7 @@ class DataTransformation:
                        JOIN stage_stores
                        ON stage_stores.store_id = filtered_sales.store_id"""
             df = pd.read_sql(query,mysql_conn)
-            df.to_sql("monthly_sales_summary_source",mysql_conn,index=False)
+            df.to_sql("sales_with_details",mysql_conn,index=False)
             logger.info("Joiner transformation completed for sales data")
 
         except Exception as e:
@@ -104,10 +104,10 @@ class DataTransformation:
 
 
 if __name__ == "__main__":
-    de = DataTransformation()    
-    de.transform_filtered_sales_data()
-    de.transform_router_sales_data_high_region()
-    de.transform_router_sales_data_low_region()
-    de.transform_joiner_sales_product_stores()
-    de.transform_aggregrator_inventory_level()
-    de.transform_aggregator_sales_data()
+    dt = DataTransformation()    
+    dt.transform_filtered_sales_data()
+    dt.transform_router_sales_data_high_region()
+    dt.transform_router_sales_data_low_region()
+    dt.transform_joiner_sales_product_stores()
+    dt.transform_aggregrator_inventory_level()
+    dt.transform_aggregator_sales_data()

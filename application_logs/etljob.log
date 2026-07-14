@@ -49,3 +49,94 @@
 2026-07-12 16:06:50,889-INFOAggregrator transformation completed for inventory data
 2026-07-12 16:06:50,889-INFOAggregator transformation has started for sales data
 2026-07-12 16:06:50,894-ERRORError encountered while data extraction of aggregator sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:06:21,422-INFOFilter transformation has started for sales data
+2026-07-14 12:06:21,525-ERRORError encountered while data extraction of sales data,Table 'filtered_sales' already exists.,exc_info=True
+2026-07-14 12:06:21,525-INFORouter transformation has started for high sales data
+2026-07-14 12:06:21,529-ERRORError encountered while data extraction of high sales data,Table 'high_sales' already exists.,exc_info=True
+2026-07-14 12:06:21,529-INFORouter transformation has started for low sales data
+2026-07-14 12:06:21,533-ERRORError encountered while data extraction of low sales data,Table 'low_sales' already exists.,exc_info=True
+2026-07-14 12:06:21,533-INFOJoiner transformation has started for sales data
+2026-07-14 12:06:21,551-ERRORError encountered while data extraction of joiner sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:06:21,551-INFOAggregrator transformation has started for inventory data
+2026-07-14 12:06:21,559-ERRORError encountered while data extraction of aggregrator inventory data,Table 'aggregrated_inventory_level' already exists.,exc_info=True
+2026-07-14 12:06:21,559-INFOAggregator transformation has started for sales data
+2026-07-14 12:06:21,563-ERRORError encountered while data extraction of aggregator sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:08:31,790-INFOFilter transformation has started for sales data
+2026-07-14 12:08:31,841-ERRORError encountered while data extraction of sales data,Table 'filtered_sales' already exists.,exc_info=True
+2026-07-14 12:08:31,841-INFORouter transformation has started for high sales data
+2026-07-14 12:08:31,845-ERRORError encountered while data extraction of high sales data,Table 'high_sales' already exists.,exc_info=True
+2026-07-14 12:08:31,846-INFORouter transformation has started for low sales data
+2026-07-14 12:08:31,850-ERRORError encountered while data extraction of low sales data,Table 'low_sales' already exists.,exc_info=True
+2026-07-14 12:08:31,850-INFOJoiner transformation has started for sales data
+2026-07-14 12:08:31,856-ERRORError encountered while data extraction of joiner sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:08:31,856-INFOAggregrator transformation has started for inventory data
+2026-07-14 12:08:31,859-ERRORError encountered while data extraction of aggregrator inventory data,Table 'aggregrated_inventory_level' already exists.,exc_info=True
+2026-07-14 12:08:31,859-INFOAggregator transformation has started for sales data
+2026-07-14 12:08:31,863-ERRORError encountered while data extraction of aggregator sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:11:08,604-INFOFilter transformation has started for sales data
+2026-07-14 12:11:08,659-ERRORError encountered while data extraction of sales data,Table 'filtered_sales' already exists.,exc_info=True
+2026-07-14 12:11:08,660-INFORouter transformation has started for high sales data
+2026-07-14 12:11:08,664-ERRORError encountered while data extraction of high sales data,Table 'high_sales' already exists.,exc_info=True
+2026-07-14 12:11:08,664-INFORouter transformation has started for low sales data
+2026-07-14 12:11:08,669-ERRORError encountered while data extraction of low sales data,Table 'low_sales' already exists.,exc_info=True
+2026-07-14 12:11:08,669-INFOJoiner transformation has started for sales data
+2026-07-14 12:11:08,674-ERRORError encountered while data extraction of joiner sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:11:08,675-INFOAggregrator transformation has started for inventory data
+2026-07-14 12:11:08,678-ERRORError encountered while data extraction of aggregrator inventory data,Table 'aggregrated_inventory_level' already exists.,exc_info=True
+2026-07-14 12:11:08,678-INFOAggregator transformation has started for sales data
+2026-07-14 12:11:08,684-ERRORError encountered while data extraction of aggregator sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:11:47,173-INFOFilter transformation has started for sales data
+2026-07-14 12:11:47,224-ERRORError encountered while data extraction of sales data,Table 'filtered_sales' already exists.,exc_info=True
+2026-07-14 12:11:47,224-INFORouter transformation has started for high sales data
+2026-07-14 12:11:47,228-ERRORError encountered while data extraction of high sales data,Table 'high_sales' already exists.,exc_info=True
+2026-07-14 12:11:47,229-INFORouter transformation has started for low sales data
+2026-07-14 12:11:47,234-ERRORError encountered while data extraction of low sales data,Table 'low_sales' already exists.,exc_info=True
+2026-07-14 12:11:47,234-INFOJoiner transformation has started for sales data
+2026-07-14 12:11:47,239-ERRORError encountered while data extraction of joiner sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:11:47,239-INFOAggregrator transformation has started for inventory data
+2026-07-14 12:11:47,242-ERRORError encountered while data extraction of aggregrator inventory data,Table 'aggregrated_inventory_level' already exists.,exc_info=True
+2026-07-14 12:11:47,242-INFOAggregator transformation has started for sales data
+2026-07-14 12:11:47,246-ERRORError encountered while data extraction of aggregator sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:14:05,975-INFOFilter transformation has started for sales data
+2026-07-14 12:14:06,017-ERRORError encountered while data extraction of sales data,Table 'filtered_sales' already exists.,exc_info=True
+2026-07-14 12:14:06,017-INFORouter transformation has started for high sales data
+2026-07-14 12:14:06,022-ERRORError encountered while data extraction of high sales data,Table 'high_sales' already exists.,exc_info=True
+2026-07-14 12:14:06,022-INFORouter transformation has started for low sales data
+2026-07-14 12:14:06,026-ERRORError encountered while data extraction of low sales data,Table 'low_sales' already exists.,exc_info=True
+2026-07-14 12:14:06,026-INFOJoiner transformation has started for sales data
+2026-07-14 12:14:06,031-ERRORError encountered while data extraction of joiner sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:14:06,031-INFOAggregrator transformation has started for inventory data
+2026-07-14 12:14:06,034-ERRORError encountered while data extraction of aggregrator inventory data,Table 'aggregrated_inventory_level' already exists.,exc_info=True
+2026-07-14 12:14:06,034-INFOAggregator transformation has started for sales data
+2026-07-14 12:14:06,038-ERRORError encountered while data extraction of aggregator sales data,Table 'monthly_sales_summary_source' already exists.,exc_info=True
+2026-07-14 12:21:45,064-INFOData Loading in fact_sales started...
+2026-07-14 12:21:45,097-INFOinsert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date) 
+                    select sales_id,product_id,store_id,quantity,sales_amount,sale_date from sales_with_details
+2026-07-14 12:26:03,902-INFOFilter transformation has started for sales data
+2026-07-14 12:26:03,969-INFOFilter transformation completed for filtered sales data
+2026-07-14 12:26:03,969-INFORouter transformation has started for high sales data
+2026-07-14 12:26:03,988-INFORouter transformation completed for high sales data
+2026-07-14 12:26:03,988-INFORouter transformation has started for low sales data
+2026-07-14 12:26:04,006-INFORouter transformation completed for low sales data
+2026-07-14 12:26:04,007-INFOJoiner transformation has started for sales data
+2026-07-14 12:26:04,025-INFOJoiner transformation completed for sales data
+2026-07-14 12:26:04,025-INFOAggregrator transformation has started for inventory data
+2026-07-14 12:26:04,039-INFOAggregrator transformation completed for inventory data
+2026-07-14 12:26:04,039-INFOAggregator transformation has started for sales data
+2026-07-14 12:26:04,054-INFOAggregator transformation completed for sales data
+2026-07-14 12:30:23,158-INFOData Loading in fact_sales started...
+2026-07-14 12:30:23,191-INFOinsert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date) 
+                    select sales_id,product_id,store_id,quantity,sales_amount,sale_date from sales_with_details
+2026-07-14 12:30:23,194-INFOData Loading in fact_sales completed...
+2026-07-14 12:30:23,194-INFOData Loading in fact_inventory started...
+2026-07-14 12:30:23,194-INFOinsert into fact_inventory(product_id,store_id,quantity_on_hand,last_updated) 
+            select product_id,store_id,quantity_on_hand,last_updated from stage_inventory
+2026-07-14 12:30:23,196-INFOData Loading in fact_inventory completed...
+2026-07-14 12:30:23,196-INFOData Loading in monthly_sales_summary started...
+2026-07-14 12:30:23,196-INFOinsert into monthly_sales_summary(product_id,year,month,total_sales ) 
+                        select product_id,year,month,total_sales from monthly_sales_summary_source
+2026-07-14 12:30:23,199-INFOData Loading in monthly_sales_summary completed...
+2026-07-14 12:30:23,199-INFOData Loading in inventory_level_bys_stores started...
+2026-07-14 12:30:23,199-INFOinsert into inventory_levels_by_store(store_id,total_inventory) 
+                        select store_id,total_inventory from aggregrated_inventory_level
+2026-07-14 12:30:23,201-INFOData Loading in inventory_level_bys_stores completed...
